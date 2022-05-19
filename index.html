@@ -7,129 +7,282 @@
   <title>Admin Dashboard</title>
 
   <link rel="stylesheet" href="src/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
   <div class="container">
     <div class="sidebar">
       <div class="logo">
-        <h2>Dashboard</h2>
+        <h2><span class="material-symbols-outlined">
+          dashboard
+          </span>
+          Dashboard</h2>
       </div>
       <div class="dash-menu">
         <ul>
-          <li>Home</li>
-          <li>Profile</li>
-          <li>Messages</li>
-          <li>History</li>
-          <li>Tasks</li>
-          <li>Communities</li>
+          <li><a href="#">
+            <span class="material-symbols-outlined">
+              home
+            </span>
+            Home
+          </a></li>
+          <li><a href="#">
+            <span class="material-symbols-outlined">
+              account_circle
+            </span>
+            Profile</a></li>
+          <li><a href="#">
+            <span class="material-symbols-outlined">
+              sms
+            </span>
+            Messages
+          </a></li>
+          <li><a href="#">
+            <span class="material-symbols-outlined">
+              history
+            </span>
+            History
+          </a></li>
+          <li><a href="#">
+            <span class="material-symbols-outlined">
+              task_alt
+            </span>
+            Tasks
+          </a></li>
+          <li><a href="#">
+            <span class="material-symbols-outlined">
+              public
+            </span>
+            Communities
+          </a></li>
         </ul>
       </div>
       <div class="settings-menu">
         <ul>
-          <li>Settings</li>
-          <li>Support</li>
-          <li>Privacy</li>
+          <li><a href="#">
+            <span class="material-symbols-outlined">
+              settings
+            </span>
+            Settings
+          </a></li>
+          <li><a href="#">
+            <span class="material-symbols-outlined">
+              help_center
+            </span>
+            Support
+          </a></li>
+          <li><a href="#">
+            <span class="material-symbols-outlined">
+              verified_user
+            </span>
+            Privacy
+          </a></li>
         </ul>
       </div>
     </div>
     <div class="header">
       <div class="search-row">
         <div class="search">
+          <a href="#"><span class="material-symbols-outlined">
+            search
+          </span></a>
           <input type="text" name="searchBar" id="searchBar">
         </div>
-        <div class="notifications">
-
+        <div class="personal-stuff">
+          <div class="notifications">
+            <a href="#"><span class="material-symbols-outlined">
+              notifications_active
+            </span></a>
+          </div>
+          <div class="small-avatar">
+            <img src="images/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="Amanda Hotchkiss avatar">
+          </div>
+          <h3 class="user">
+            Amanda Hotchkiss
+          </h3>
         </div>
-        <div class="small-icon">
-
-        </div>
-        <h3 class="user">
-          Amanda Hotchkiss
-        </h3>
       </div>
       <div class="action-bar">
-        <div class="personal-icon"></div>
-        <div class="greeting">
-          <p class="hi">
-            Hi there,
-          </p>
-          <h2>Amanda Hotchkiss (@hotkiss_coding)</h2>
+        <div class="greeting-and-pic">
+          <div class="personal-avatar">
+            <img src="images/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="Amanda Hotchkiss avatar">
+          </div>
+          <div class="greeting">
+            <p class="hi">
+              Hi there,
+            </p>
+            <h2>Amanda Hotchkiss (@hotkiss_coding)</h2>
+          </div>
         </div>
-        <button>New</button>
-        <button>Upload</button>
-        <button>Share</button>
-      </div>
-    </div>
-    <div class="projects">
-      <h3>Your Projects</h3>
-      <div class="your-projects">
-        <div class="project">
-          <h3>Project 1</h3>
-          <p>This project is really cool!</p>
-          <div class="icons"></div>
-        </div>
-        <div class="project">
-          <h3>Project 2</h3>
-          <p>This project is really cool!</p>
-          <div class="icons"></div>
-        </div>
-        <div class="project">
-          <h3>Project 3</h3>
-          <p>This project is really cool!</p>
-          <div class="icons"></div>
-        </div>
-        <div class="project">
-          <h3>Project 4</h3>
-          <p>This project is really cool!</p>
-          <div class="icons"></div>
-        </div>
-        <div class="project">
-          <h3>Project 5</h3>
-          <p>This project is really cool!</p>
-          <div class="icons"></div>
-        </div>
-        <div class="project">
-          <h3>Project 6</h3>
-          <p>This project is really cool!</p>
-          <div class="icons"></div>
+        <div class="buttons">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
         </div>
       </div>
     </div>
-    <div class="annoucement-section">
-      <h4>Announcements</h4>
-      <div class="announcements">
-        <div class="announcement">
-          <h4>Site Maintenance</h4>
-          <p>Blah blah blah</p>
-        </div>
-        <div class="announcement">
-          <h4>Community Share Day</h4>
-          <p>Blah blah blah</p>
-        </div>
-        <div class="announcement">
-          <h4>Updated Privacy Policy</h4>
-          <p>Blah blah blah</p>
+    <div class="body">
+      <div class="projects">
+        <h3>Your Projects</h3>
+        <div class="your-projects">
+          <div class="project">
+            <h3>Project 1</h3>
+            <p>Molestie ac feugiat sed lectus.</p>
+            <div class="icons">
+              <a href="#"><span class="material-symbols-outlined">
+                grade
+              </span></a>
+              <a href="#"><span class="material-symbols-outlined">
+                visibility
+              </span></a>
+              <a href="#"><span class="material-symbols-outlined">
+                share
+              </span></a>
+            </div>
+          </div>
+          <div class="project">
+            <h3>Project 2</h3>
+            <p>Faucibus ornare suspendisse sed nisi lacus sed viverra.</p>
+            <div class="icons">
+              <a href="#"><span class="material-symbols-outlined">
+                grade
+              </span></a>
+              <a href="#"><span class="material-symbols-outlined">
+                visibility
+              </span></a>
+              <a href="#"><span class="material-symbols-outlined">
+                share
+              </span></a>
+            </div>
+          </div>
+          <div class="project">
+            <h3>Project 3</h3>
+            <p>Pharetra convallis posuere morbi leo urna molestie at.</p>
+            <div class="icons">
+              <a href="#"><span class="material-symbols-outlined">
+                grade
+              </span></a>
+              <a href="#"><span class="material-symbols-outlined">
+                visibility
+              </span></a>
+              <a href="#"><span class="material-symbols-outlined">
+                share
+              </span></a>
+            </div>
+          </div>
+          <div class="project">
+            <h3>Project 4</h3>
+            <p>Eget arcu dictum varius duis at.</p>
+            <div class="icons">
+              <a href="#"><span class="material-symbols-outlined">
+                grade
+              </span></a>
+              <a href="#"><span class="material-symbols-outlined">
+                visibility
+              </span></a>
+              <a href="#"><span class="material-symbols-outlined">
+                share
+              </span></a>
+            </div>
+          </div>
+          <div class="project">
+            <h3>Project 5</h3>
+            <p>Ullamcorper malesuada proin libero nunc consequat interdum.</p>
+            <div class="icons">
+              <a href="#"><span class="material-symbols-outlined">
+                grade
+              </span></a>
+              <a href="#"><span class="material-symbols-outlined">
+                visibility
+              </span></a>
+              <a href="#"><span class="material-symbols-outlined">
+                share
+              </span></a>
+            </div>
+          </div>
+          <div class="project">
+            <h3>Project 6</h3>
+            <p>Id diam vel quam elementum.</p>
+            <div class="icons">
+              <a href="#"><span class="material-symbols-outlined">
+                grade
+              </span></a>
+              <a href="#"><span class="material-symbols-outlined">
+                visibility
+              </span></a>
+              <a href="#"><span class="material-symbols-outlined">
+                share
+              </span></a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="trending-section">
-      <h3>Trending</h3>
-      <div class="trending">
-        <div class="trending-project">
-          <div class="user">@tegan</div>
-          <p class="project-name">World Peace Builder</p>
+      <div class="notificaton-section">
+        <div class="announcement-section">
+          <h4>Announcements</h4>
+          <div class="announcements">
+            <div class="announcement">
+              <h4>Site Maintenance</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <hr>
+            <div class="announcement">
+              <h4>Community Share Day</h4>
+              <p>Nullam eget felis eget nunc. </p>
+            </div>
+            <hr>
+            <div class="announcement">
+              <h4>Updated Privacy Policy</h4>
+              <p>Tellus in hac habitasse platea dictumst vestibulum rhoncus.</p>
+            </div>
+          </div>
         </div>
-        <div class="trending-project">
-          <div class="user">@morgan</div>
-          <p class="project-name">Super Cool Project</p>
-        </div>
-        <div class="trending-project">
-          <div class="user">@kendall</div>
-          <p class="project-name">Life Changing App</p>
-        </div>
-        <div class="trending-project">
-          <div class="user">@alex</div>
-          <p class="project-name">No Traffic Maker</p>
+        <div class="trending-section">
+          <h3>Trending</h3>
+          <div class="trending">
+            <div class="trending-project">
+              <div class="small-avatar">
+                <img src="images/alex-suprun-ZHvM3XIOHoE-unsplash.jpg" alt="small avatar">
+              </div>
+              <div class="trending-text">
+                <div class="user">@tegan</div>
+                <p class="project-name">World Peace Builder</p>
+              </div>
+            </div>
+            <hr>
+            <div class="trending-project">
+              <div class="small-avatar">
+                <img src="images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt="small avatar">
+              </div>
+              <div class="trending-text">
+                <div class="user">@morgan</div>
+                <p class="project-name">Super Cool Project</p>
+              </div>
+            </div>
+            <hr>
+            <div class="trending-project">
+              <div class="small-avatar">
+                <img src="images/julian-wan-WNoLnJo7tS8-unsplash.jpg" alt="small avatar">
+              </div>
+              <div class="trending-text">
+                <div class="user">@kendall</div>
+                <p class="project-name">Life Changing App</p>
+              </div>
+            </div>
+            <hr>
+            <div class="trending-project">
+              <div class="small-avatar">
+                <img src="images/sigmund-jzz_3jWMzHA-unsplash.jpg" alt="small avatar">
+              </div>
+              <div class="trending-text">
+                <div class="user">@alex</div>
+                <p class="project-name">No Traffic Maker</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
